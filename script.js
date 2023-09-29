@@ -1,5 +1,6 @@
 const formulario = document.querySelector("#formulario");
 
-formulario.addEventListener("submit", () => {
-    alert("Formulario Enviado");
+formulario.addEventListener("submit", (event) => {
+    event.preventDefault;
+    console.log (event);
 })
