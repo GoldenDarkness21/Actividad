@@ -3,6 +3,7 @@ const render =() => {
     const resultado = document.querySelector("#resultado");
 
     formulario.addEventListener("submit", (event) => {
+        alert ("Formulario Enviado");
         event.preventDefault();
 
         const name = event.target.name.value;
